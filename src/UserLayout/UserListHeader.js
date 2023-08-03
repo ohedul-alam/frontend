@@ -1,6 +1,6 @@
 import React from "react";
 import './custom.css';
-function MainHeader({flipState}) {
+function UserListHeader({flipState}) {
     return (
         <div className="header-main px-3 px-lg-4">
         <a id="menuSidebar" href="#" className="menu-link me-3 me-lg-4" onClick={e=>flipState()}><i className="ri-menu-2-fill"></i></a>
@@ -123,5 +123,5 @@ function MainHeader({flipState}) {
     );
   }
   
-  export default MainHeader;
+  export default UserListHeader;
   

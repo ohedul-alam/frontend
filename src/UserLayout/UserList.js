@@ -1,6 +1,6 @@
 import React from "react";
 import './custom.css';
-function MainBody() {
+function UserList() {
     return (
         <div className="main main-app p-3 p-lg-4 d-flex flex-column">
       <div className="d-md-flex align-items-center justify-content-between mb-4">
@@ -266,5 +266,5 @@ function MainBody() {
     );
   }
   
-  export default MainBody;
+  export default UserList;
   
