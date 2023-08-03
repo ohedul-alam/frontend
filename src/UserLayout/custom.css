@@ -1,0 +1,270 @@
+.main {
+  min-height: calc(100vh - 72px);
+}
+
+.auth-img {
+  opacity: 0.4;
+}
+
+.pagination {
+  --bs-pagination-font-size: 0.75rem;
+}
+
+.sidebar-footer {
+  bottom: -145px;
+}
+
+.ql-editor p {
+  margin-bottom: inherit;
+  font-size: 0.875rem;
+  color: inherit;
+}
+
+.setting-item .card-logo {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  border-radius: 4px;
+  background-color: #6e7985;
+  color: #fff;
+  flex-shrink: 0;
+  font-size: 32px;
+}
+
+.activity-item.add::before {
+  content: "\ea8a";
+  background-color: #ea4c89;
+}
+
+.activity-item.edit::before {
+  content: "\ec5c";
+  background-color: #506fd9;
+}
+
+.select2-container {
+  max-width: 100%;
+}
+
+.table:not(.table-borderless) > :not(:first-child) {
+  border-top-width: 1.5px;
+  border-top-color: #4c4f52;
+}
+
+#sidebarMenu .nav-link:hover {
+  background-color: #f3f5f9;
+}
+#sidebarMenu .nav-link.active {
+  background-color: #f3f5f9;
+  border-left: 4px solid #506fd9;
+  padding-left: 16px !important;
+}
+
+.avater-list {
+  display: flex;
+  align-items: center;
+}
+.avater-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.avater-list ul .avatar {
+  border: 1.5px solid #fff;
+  width: 30px;
+  height: 30px;
+}
+.avater-list ul .avatar-initial {
+  font-size: 12px;
+}
+.avater-list ul li + li {
+  margin-left: -12px;
+}
+
+.file-icon {
+  width: 20px;
+}
+.file-icon img {
+  width: 100%;
+}
+.file-icon.lg img {
+  width: 24px;
+  height: 24px;
+}
+
+.card-app .card-logo img {
+  width: 100%;
+}
+
+.offcanvas-body .card-app:hover {
+  border: 1px solid #506fd9;
+  background: #fbfcfe;
+}
+
+.offcanvas-body {
+  overflow-x: hidden;
+}
+
+.filepond--root {
+  font-size: 14px;
+}
+
+.filepond--credits {
+  display: none;
+}
+
+.card-header-image {
+  width: 44px;
+}
+.card-header-image img {
+  width: 100%;
+}
+
+.offcanvas-backdrop.show {
+  opacity: 0.35;
+}
+
+.avatar {
+  transition: all 0.25s;
+}
+
+a:hover .avatar {
+  transform: scale(1.1);
+}
+
+.btn {
+  transition: all 0.25s;
+}
+.btn:hover:not(:active) {
+  transform: scale(1.05);
+}
+
+.table a h6 {
+  position: relative;
+  text-decoration: none;
+  width: -moz-max-content;
+  width: max-content;
+}
+.table a h6::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 5px;
+  height: 0.07em;
+  bottom: 0;
+  left: 0;
+  background: currentcolor;
+  transform-origin: bottom right;
+  transition: transform 0s ease-out;
+}
+.table a:hover h6::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.breadcrumb a {
+  position: relative;
+  text-decoration: none;
+  width: -moz-max-content;
+  width: max-content;
+}
+.breadcrumb a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 5px;
+  height: 0.07em;
+  bottom: 0;
+  left: 0;
+  background: currentcolor;
+  transform-origin: bottom right;
+  transition: transform 0.1s ease-out;
+}
+.breadcrumb a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.table a {
+  color: var(--bs-body-color);
+  transition: all 0.25s;
+}
+.table a:hover {
+  color: var(--bs-link-color);
+}
+
+.table-agent h6,
+.table-agent .h6 {
+  color: inherit;
+}
+
+.card-app .card-logo {
+  background-color: inherit;
+}
+
+.file-icon img {
+  transition: all 0.25s;
+}
+
+a:hover .file-icon img {
+  transform: scale(1.1);
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  border-top: 1px solid #e2e5ec;
+}
+
+.ql-toolbar.ql-snow {
+  border-bottom: 0px;
+}
+
+.ql-container {
+  font-size: 0.875rem;
+}
+
+.ql-editor {
+  padding: 0.6rem;
+}
+
+.ql-editor.ql-blank::before {
+  left: 0.6rem;
+  right: 0.6rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.ql-editor ol, .ql-editor ul {
+  padding-left: 1rem;
+}
+
+.finance-donut-value {
+  bottom: 27px;
+}
+
+.card-video-item a {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: all 0.25s;
+}
+
+a:hover .card-img-top {
+  transform: scale(1.07);
+}
+
+.header-main .menu-link {
+  color: #313c47;
+}
+
+div#bibi-poweredby {
+  display: none !important;
+}/*# sourceMappingURL=custom.css.map */
